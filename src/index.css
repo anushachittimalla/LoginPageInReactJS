@@ -1,0 +1,19 @@
+.Link{
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.icon {
+  padding: 10px;
+  color: rgb(179, 194, 179);
+  min-width: 50px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  background-color: aliceblue;
+}

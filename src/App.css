@@ -1,0 +1,114 @@
+.App {
+  text-align: center;
+}
+
+.background{
+  background-color: white ;
+  height: 90vh;
+  width: 40vw;
+  /* min-width: 400px; */
+  border-radius: 15px;
+  margin-top: 5%;
+  /* min-height: 600px; */
+}
+
+.cogno-image {
+  height: 50px;
+  width: 200px;
+  margin: 30px ;
+}
+
+p{
+  color: gray;
+  font-weight: 400;
+}
+
+form{
+  text-align: left;
+  margin: 20px;
+}
+
+label{
+  font-weight: 600;
+}
+
+input{
+  margin-bottom: 20px;
+  width: 80%;
+  border-radius: 5px;
+  border-color: gainsboro;
+  border-width: 2px;
+}
+
+.login{
+  text-align:center;
+  background-color: orange;
+  color: white;
+  height: 45px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.password-icon{
+  margin: 10px;
+  color: lightgrey;
+  position: absolute;
+  top: 5px;
+  left: 85%;
+  font-size: 15px;
+}
+
+input::placeholder {
+  text-align: left;
+}
+
+.email { 
+  position: relative; 
+  margin: 0 auto ;
+}
+
+.email .fa-envelope { 
+  position: absolute;
+  top: 10px;
+  left: 85%;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  .background {
+    height: 85vh;
+    width: 70vw;
+  }
+}
+@media screen and (max-width:768px) {
+  .background {
+  font-size: 10px;
+  }
+  .email .fa-envelope { 
+    position: absolute;
+    top: -2px;
+    left: 75%;
+    font-size: 12px;
+  }
+  .password-icon{
+    position: absolute;
+    top: -2px;
+    left: 75%;
+    size: 10px;
+  }
+  .login{
+    height: 30px;
+    
+  }
+  .login-link{
+    font-size: 13px;
+margin-top: 5px;
+  }
+}
+@media screen and (max-width: 340px) {
+  .cogno-image {
+    height: 40px;
+    width: 150px;
+    margin: 30px ;
+  }
+}
